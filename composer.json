@@ -1,9 +1,24 @@
 {
-    "description": "Meanbee Footerjs module",
-    "name": "meanbee/footerjs",
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
-    },
-    "type": "magento-module",
-    "version": "dev-master"
+  "name": "sickdaflip/magento-footer-js",
+  "type": "magento-module",
+  "license": "MIT",
+  "description": "move all JS-Files to Footer for Magento 1.9.3.",
+  "authors": [
+    {
+      "name": "SickDaFlip",
+      "email": "philippbreitsprecher@gmail.com"
+    }
+  ],
+  "extra": {
+    "map": [
+      [
+        "app/code/community/Meanbee/Footerjs/",
+        "app/code/community/Meanbee/Footerjs/"
+      ],
+      [
+        "app/etc/modules/Meanbee_Footerjs.xml",
+        "app/etc/modules/Meanbee_Footerjs.xml"
+      ]
+    ]
+  }
 }
